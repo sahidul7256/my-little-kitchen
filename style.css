@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:poppins;
+    overflow-x: hidden;
+
+    
+    }
+    .container{
+        background-color:#fff9ea;
+    
+    }
+    
+    p {
+        font-size: 19px;
+    }
+    
+    ul li{
+        list-style: none;
+    }
+    .nav-ul{
+        display: flex;
+        gap:30px;
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .nav-container{
+        display: flex;
+        justify-content: space-around;   
+        align-items: center; 
+        height: 108px;
+    
+    }
+    .nav-btn{
+        background-color:#ffc941;
+        border: none;
+        border-radius: 20px;
+        height: 38px;;
+        width:120px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .nav-icon{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    .hero-container{
+        background-image: url('../image/shapes.png');
+        height:98vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    .hero-heading{
+        font-size: 55px;
+        font-weight: 600;
+        line-height: 55px;
+        margin-bottom: 21px;
+    }
+    .food{
+        color: #ffc941;
+    }
+    .hero-pera{
+        color:#625f5a;
+        margin-bottom: 23px;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+    }
+    .what-container{
+        margin-top: 80px;
+    }
+
+    .serve-section {
+        margin-bottom: 45px;
+    }
+
+    .serve{
+        margin-top: 32px;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .serve-card h3 {
+        font-size: 26px;
+    }
+
+    .popular{
+        margin-top:80px ;
+    }
+
+    .popular-section {
+        margin-top: 85px;
+    }
+
+
+
+    .menu-container{
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 80px;
+        gap: 75px;
+    }
+    
+    
+    .menu-images{
+        background-color: #f1f1f1;
+        padding: 20px;
+        border-radius: 25px 25px 0 0;
+    }
+    .menu-card{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 25px 25px 25px 25px;
+    }
+
+    .menu-card h3 {
+        text-align: center;
+        font-size: 27px;
+        margin-top: 25px;
+    }
+
+    .menu-icon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 20px 10px;
+    }
+    .review{
+        position: relative;
+        top: -35px;
+    }
+    /* revie-w section start */
+    .review-banner{
+        margin-left: 50px;
+    }
+    
+    
+    .review-down-image{
+        position: relative;
+        left: -30px;
+    }
+    .review-section{
+        margin-top: 30px;
+    }
+    .main-review{
+        display: flex;
+        margin-top: 30px;
+        gap: 30px;
+    }
+    .review-card-one{
+        padding: 28px 20px;
+        border:1px solid black;
+    border-radius: 15px;
+        background-color: #f1f1f1;
+        width: 500px;
+    
+    }
+    .review-card-one-image{
+        display: flex;
+        gap: 18px;
+        
+    }
+    .main-review-container{
+        display: flex;
+        gap: 10px;
+    }
+    /* last banner style */
+    .last-banner-container{
+        background-image: url('../image/join.png');
+        height: 332px;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    /* footer start */
+    .footer-container{
+        background-image: url('../image/shapes.png');
+        height: 489px;
+        margin-top: 60px;
+    }
+    .item{
+        display: flex;
+        justify-content: space-around;
+        padding: 100px;
+        gap: 10px;
+    
+    }
+    .icons i{
+        margin: 10PX;
+        font-size: 25PX;
+    }
+    .title {
+        font-weight: 600;
+        font-size: 26px;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+    }
+
+    .last-padding{
+    text-align: center;
+    border-top: 1px solid black;
+    padding-top: 80px;
+    }
+
